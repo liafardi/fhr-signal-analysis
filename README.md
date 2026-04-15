@@ -52,6 +52,6 @@ Shannon entropy differs significantly between normal (pH ≥ 7.20) and abnormal 
 </p>
 
 ## Key Results
-- Significant differences were observed in selected statistical features
-- Entropy and variability-related metrics showed strong discriminative power  
-- Signal characteristics vary noticeably between normal and abnormal cases
+- Shannon Entropy was the only statistically significant feature  
+- Traditional statistical features (mean, variance, skewness) were not significant  
+- Entropy captures signal complexity beyond simple variability 
