@@ -45,6 +45,11 @@ The following features were computed:
 - SciPy  
 - Matplotlib
 
+## Key Results
+- Shannon Entropy was the only statistically significant feature  
+- Traditional statistical features (mean, variance, skewness) were not significant  
+- Entropy captures signal complexity beyond simple variability
+
 ## Shannon Entropy Comparison
 <p align="center">
   <img src="Figure_1.png" width="500">
@@ -54,11 +59,6 @@ The following features were computed:
 Shannon entropy differs significantly between normal (pH ≥ 7.20) and abnormal (pH < 7.20) groups, indicating changes in signal complexity.
 </p>
 
-## Key Results
-- Shannon Entropy was the only statistically significant feature  
-- Traditional statistical features (mean, variance, skewness) were not significant  
-- Entropy captures signal complexity beyond simple variability
-
 ## How to Run
 
 1. Install required libraries:
@@ -66,3 +66,5 @@ Shannon entropy differs significantly between normal (pH ≥ 7.20) and abnormal 
 
 2. Run the script:
    python analysis.py
+## Author
+Apostolia Fardi
