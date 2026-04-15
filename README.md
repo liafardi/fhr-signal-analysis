@@ -41,7 +41,16 @@ The following features were computed:
 - Pandas  
 - SciPy  
 - Matplotlib
-  
+
+## Shannon Entropy Comparison
+<p align="center">
+  <img src="Figure_1.png" width="500">
+</p>
+
+<p align="center">
+Shannon entropy differs significantly between normal (pH ≥ 7.20) and abnormal (pH < 7.20) groups, indicating changes in signal complexity.
+</p>
+
 ## Key Results
 - Significant differences were observed in selected statistical features
 - Entropy and variability-related metrics showed strong discriminative power  
