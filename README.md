@@ -52,7 +52,7 @@ The following features were computed:
 
 ## Shannon Entropy Comparison
 <p align="center">
-  <img src="Figure_1.png" width="500">
+  <img src="shannon_entropy_comparison.png" width="500">
 </p>
 
 <p align="center">
