@@ -4,6 +4,9 @@ Biomedical signal analysis of fetal heart rate (FHR) data with statistical featu
 ## Overview
 This project analyzes fetal heart rate (FHR) signals and investigates their relationship with neonatal pH levels. The goal is to identify statistical differences between normal and abnormal cases using signal-derived features.
 
+## Dataset
+The dataset is accessed via PhysioNet API using wfdb.
+
 ## Objectives
 - Process fetal heart rate (FHR) signals  
 - Extract meaningful statistical features  
@@ -54,4 +57,12 @@ Shannon entropy differs significantly between normal (pH ≥ 7.20) and abnormal 
 ## Key Results
 - Shannon Entropy was the only statistically significant feature  
 - Traditional statistical features (mean, variance, skewness) were not significant  
-- Entropy captures signal complexity beyond simple variability 
+- Entropy captures signal complexity beyond simple variability
+
+## How to Run
+
+1. Install required libraries:
+   pip install numpy pandas scipy matplotlib
+
+2. Run the script:
+   python analysis.py
